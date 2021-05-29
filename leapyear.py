@@ -1,2 +1,3 @@
 def isleapyear(year):
-    pass
+    if type(year) != int:
+        return 0
