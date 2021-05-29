@@ -7,3 +7,6 @@ def isleapyear(year):
     elif year%100 == 0 and year%400 !=0:
         str = "false"
         return str
+    elif year%400 == 0:
+        str = "true"
+        return str
