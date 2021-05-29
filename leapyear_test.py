@@ -5,8 +5,13 @@ class TestCase (unittest.TestCase):
     def test_1(self):
         self.assertEqual(leapyear.isleapyear("a"),0)
 
-    def test_1(self):
+    def test_2(self):
         self.assertEqual(leapyear.isleapyear(2004),"true")
+
+    def test_3(self):
+        self.assertEqual(leapyear.isleapyear(1900), "false")
+
+    
 
 if __name__ == '__main__': 
     unittest.main(verbosity=2) 
