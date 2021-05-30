@@ -3,7 +3,7 @@ import fizzbuzz
 
 class TestCase (unittest.TestCase):
     def test_1(self):
-        self.assertEqual(fizzbuzz.fizz_buzz(100),100)
+        self.assertEqual(fizzbuzz.fizz_buzz(98),98)
 
     def test_2(self):
         self.assertEqual(fizzbuzz.fizz_buzz(9),"fizz")
