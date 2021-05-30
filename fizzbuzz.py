@@ -1,5 +1,8 @@
 def fizz_buzz(i):
-    if i%3 == 0:
+    if i%3 == 0 and i%5 == 0:
+        str = "fizzbuzz"
+        return str
+    elif i%3 == 0:
         str = "fizz"
         return str
     elif i%5 == 0:
