@@ -1,5 +1,5 @@
 import unittest
-import leapyear
+import fizzbuzz
 
 class TestCase (unittest.TestCase):
     def test_1(self):
